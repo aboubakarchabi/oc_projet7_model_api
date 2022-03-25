@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from joblib import load
-import numpy as np
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
